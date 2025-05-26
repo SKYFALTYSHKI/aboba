@@ -10,7 +10,7 @@ int main() {
         std::cerr << "Нет данных для обработки!\n";
         return 1;
     }
-
+    //сортировка 
     filterByCategory(products, "Промтовары");
     filterByPrice(products, 100.0);
 
